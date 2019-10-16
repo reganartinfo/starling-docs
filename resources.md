@@ -3,11 +3,11 @@ layout: default
 title: Resources
 ---
 
+# Resources
 
-
-## Glossary of terms
 <br>
 
+## Glossary
 ### client
 A user that wants to store or get data on the Filecoin Network.
 

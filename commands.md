@@ -5,12 +5,13 @@ title: Commands
 
 # Commands
 
+<br>
+
 This section describes Starling's various commands and functions available via its command-line interface. Remember to always type starling before invoking an argument in the command-line.
 
 If you don’t understand a word used in the documentation, try looking it up in Starling’s [glossary](resources.html) under the “Resources” section.
 
-
-## Table of contents
+## Table of Contents
 
 <table class="table table-hover">
   <thead>
@@ -52,8 +53,6 @@ If you don’t understand a word used in the documentation, try looking it up in
       <td>Retry a failed upload</td>
       <td>retry</td>
     </tr>
-    
-    
   </tbody>
 </table>
 
@@ -72,7 +71,6 @@ Arguments: none
 Syntax: `starling get [minerID] [contentID]`
 
 About: Queues downloading a specific file stored by a specific miner on the Filecoin Network.
-
 
 <table class="table table-sm">
   <thead>
@@ -97,7 +95,6 @@ About: Queues downloading a specific file stored by a specific miner on the File
 </table>
 
 <br><br>
-
 
 ## help 
 Syntax: `starling help [command]`
@@ -147,7 +144,6 @@ Syntax: `starling store [path]`
 
 <br><br>
 
-
 ## list
 Syntax: `starling list [path]`
 
@@ -173,7 +169,6 @@ About: Outputs a CSV file of all your content currently stored on the Filecoin N
 
 
 ### Outputs
-
 <table class="table table-sm">
   <thead>
     <tr>
@@ -213,7 +208,6 @@ About: Launches an interactive interface for monitoring your content being store
 Syntax: `starling monitor`
 
 ### Interactive keyboard shortcuts:
-
 - `^S` - sort list by jobId
 - `^F` - find a job by jobId
 - `^H` - hide all queued jobs
@@ -221,7 +215,6 @@ Syntax: `starling monitor`
 <br>
 
 ### Outputs
-
 <table class="table table-sm">
   <thead>
     <tr>
@@ -283,9 +276,7 @@ Syntax: `starling monitor`
 
 <br><br>
 
-
 ## retry
-
 About: retries any failed uploads or downloads
 
 Syntax: `starling retry`
@@ -316,9 +307,7 @@ Syntax: `starling verify [path]`
   </tbody>
 </table>
 
-
 ### Outputs
-
 <table class="table table-sm">
   <thead>
     <tr>
@@ -377,7 +366,6 @@ Syntax: `starling verify [path]`
     </tr>
   </tbody>
 </table>
-
 
   <script type="text/javascript">
 jQuery(document).ready(function($) {
